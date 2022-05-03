@@ -2,6 +2,8 @@ Download the zipped file structure [here](https://drive.google.com/file/d/1E59Sa
 
 ## Steps to get up and running
 
+1. Download the zipped file structure
+1. Copy the files into your project folder
 1. Update the `name` in the `package.json` file 
 ```
   {
@@ -11,15 +13,15 @@ Download the zipped file structure [here](https://drive.google.com/file/d/1E59Sa
   }
   
 ```
-2. Run `npm i` or `pnpm install` to install the dependencies
-3. Run `npm run dev` or `pnpm dev` to iniciate the hot reload server
-4. Open `localhost:3000` in your browser
-5. Time to code, Enjoy 😎
+4. Run `npm i` or `pnpm install` to install the dependencies
+1. Run `npm run dev` or `pnpm dev` to iniciate the hot reload server
+1. Open `localhost:3000` in your browser
+1. Time to code, Enjoy 😎
 
 <br />
 
 ## How to add components from this repo to your project
 
 1. Go to `components` folder
-2. Choose `visual` (layouts, menus, sidebars) or `functional` (react-hooks, utils, redux)
-3. Each components has a `instructions.md` file where you gonna find everything you need to use the component
+1. Choose `visual` (layouts, menus, sidebars) or `functional` (react-hooks, utils, redux)
+1. Each components has a `instructions.md` file where you gonna find everything you need to use the component
