@@ -27,4 +27,4 @@ Download the zipped file structure [here](https://drive.google.com/file/d/1E59Sa
 1. Each components has a `instructions.md` file where you gonna find everything you need to use the component
 
 Links <br />
-[react components using MUI](https://github.com/Braint-Tech/template-web/tree/components/components)
+[react components using MUI](https://github.com/Braint-Tech/template-web/tree/main/components)
