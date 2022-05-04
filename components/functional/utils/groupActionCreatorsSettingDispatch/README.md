@@ -1,0 +1,1 @@
+Function to group actions creators like redux's `combineReducers`, but applying the dispatch function for all functions
