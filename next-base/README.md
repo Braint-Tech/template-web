@@ -1,4 +1,4 @@
-Download the zipped file structure [here](https://drive.google.com/file/d/1E59SatnR1tV8SzzP1fAtpFhtLQzkOvUG/view?usp=sharing)
+Download the zipped file structure [here](https://drive.google.com/uc?id=1nGl_yfuXeRIca6x1u2c1XtM41RcX_oq1&export=download)
 
 ## Steps to get up and running
 
