@@ -15,7 +15,9 @@ First option is always `next`, unless there is some specificity in the project s
  - specificity 2
 
 ## Definitions
-### Unique steps:
-A sequece of steps to follow if and only if you have not follow yet
+### INE:
+If not exists
 ### Installation steps:
 A sequence of steps to follow every time that you are going to install a module
+### Unique steps:
+A sequece of steps to follow if and only if you have not follow yet
