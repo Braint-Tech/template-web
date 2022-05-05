@@ -1,5 +1,5 @@
 import { Dispatch } from 'redux'
-import { Action } from '../../types'
+import { Action } from 'types'
 
 const groupActionCreatorsSettingDispatch =
 <type, payload, T extends {[key: string]: (...args: any) => any}>(dispatch: Dispatch<Action<type, payload>>, actionCreators: T) => {
