@@ -6,10 +6,8 @@
 - none
 
 ### Unique steps[*](https://github.com/Braint-Tech/template-web#unique-steps):
-1. create `types` folder at `src` [INE](https://github.com/Braint-Tech/template-web#ine)
-1. create `index.ts` file at `src/types` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create `actions` folder at `src/types` [INE](https://github.com/Braint-Tech/template-web#ine)
-1. create `index.ts` file at `src/types/actions`
+1. create `index.ts` file at `src/types/actions` [INE](https://github.com/Braint-Tech/template-web#ine)
 
 ### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module into `src/types/actions`
