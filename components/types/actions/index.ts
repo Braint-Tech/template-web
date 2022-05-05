@@ -1,1 +1,0 @@
-export type { default as Action } from './generic'

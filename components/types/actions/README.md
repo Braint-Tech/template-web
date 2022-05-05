@@ -1,1 +1,0 @@
-Types for the redux actions creators

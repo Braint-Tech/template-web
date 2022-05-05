@@ -1,1 +1,0 @@
-All types related to the application domain
