@@ -5,18 +5,26 @@
 ### Dependent of:
 - none
 
+<br />
+
 ### Unique steps[*](https://github.com/Braint-Tech/template-web#unique-steps):
 1. create components folder at `src` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create common folder at `src/components` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create index.ts file at `src/components` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create index.ts file at `src/components/common` [INE](https://github.com/Braint-Tech/template-web#ine)
 
+<br />
+
 ### Instalation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module into `src/components/common`
 1. add the code line `export * from './modal'` at `src/components/common/index.ts`
 
+<br />
+
 ### For better benefit, use with redux
 See the instructions to integrate modal boxes with redux [here](#)
+
+<br />
 
 ### Usage example
 ```tsx
