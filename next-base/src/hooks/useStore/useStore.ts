@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { store } from '../../redux'
+import { store } from '../../rdx'
 
 const useStore = () => {
   const [ _store, setStore ] = useState(store.getState())
