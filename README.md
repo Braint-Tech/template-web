@@ -20,4 +20,4 @@ If not exists
 ### Installation steps:
 A sequence of steps to follow every time that you are going to install a module
 ### Unique steps:
-A sequece of steps to follow if and only if you have not follow yet
+A sequence of steps to follow if and only if you have not already followed
