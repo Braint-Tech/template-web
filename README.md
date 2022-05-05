@@ -17,3 +17,5 @@ First option is always `next`, unless there is some specificity in the project s
 ## Definitions
 ### Unique steps:
 A sequece of steps to follow if and only if you have not follow yet
+### Installation steps:
+A sequence of steps to follow every time that you are going to install a module
