@@ -2,7 +2,6 @@ import { Button, Stack } from '@mui/material'
 import { Alert, Confirm, Prompt } from 'components/common'
 import { useActions, useStore } from 'hooks'
 import type { NextPage } from 'next'
-import { useState } from 'react'
 import { stack } from 'utils/mui'
 
 const Home: NextPage = () => {
@@ -39,6 +38,21 @@ const Home: NextPage = () => {
           }
         >
           Confirm
+        </Button>
+        <Button
+          onClick={
+            () => modal$.show(
+              <Prompt
+                title='Prompt'
+                onClose={ modal$.hide }
+                onConfirm={(value) => console.log({ value })}
+                onCancel={() => console.log('canceled')}
+                onChange={(value) => console.log('changed', { value })}
+              />
+            )
+          }
+        >
+          Prompt
         </Button>
         { modal.showing && !!modal.component && modal.component }
       </Stack>
