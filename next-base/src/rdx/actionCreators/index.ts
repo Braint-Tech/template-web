@@ -1,8 +1,11 @@
 import { Dispatch } from 'redux'
 import { Action } from '../../types'
 import { groupActionCreatorsSettingDispatch } from '../../utils'
+import modal$ from './modal'
 
-const actions = {}
+const actions = {
+  modal$
+}
 
 export default actions
 

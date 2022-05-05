@@ -1,11 +1,13 @@
 import { Button, Stack } from '@mui/material'
 import { Alert, Confirm, Prompt } from 'components/common'
+import { useStore } from 'hooks'
 import type { NextPage } from 'next'
 import { useState } from 'react'
 import { stack } from 'utils/mui'
 
 const Home: NextPage = () => {
 
+  const { modal } = useStore()
   const [ alert, setAlert ] = useState(true)
   const [ confirm, setConfirm ] = useState(true)
   const [ prompt, setPrompt ] = useState(true)
