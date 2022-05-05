@@ -15,7 +15,7 @@
 
 <br />
 
-### Instalation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
+### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module into `src/components/common`
 1. insert the code line `export * from './modal'` at `src/components/common/index.ts`
 

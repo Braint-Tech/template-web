@@ -9,5 +9,5 @@
 1. create `utils` folder at `src` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create `index.ts` file at `src/utils` [INE](https://github.com/Braint-Tech/template-web#ine)
 
-### Instalation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
+### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module at `src/utils`
