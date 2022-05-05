@@ -1,4 +1,21 @@
-## Usage example
+## Modal boxes (Alert, Confirm, Prompt)
+
+### Download the module [here](https://drive.google.com/uc?id=1iR3AIA1JmchradBhZVYsYsEO9lqy0JGZ&export=download)
+
+### Dependent of:
+- none
+
+### Unique steps[*](https://github.com/Braint-Tech/template-web#unique-steps):
+1. create components folder at `src`
+1. create common folder at `src/components`
+1. create index.ts file at `src/components`
+1. create index.ts file at `src/components/common`
+
+### Instalation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
+1. unzip the module into `src/components/common`
+1. add the code line `export * from './modal' ` at `src/components/common/index.ts` 
+
+### Usage example
 ```tsx
 import { Button, Stack } from '@mui/material'
 import { Alert, Confirm, Prompt } from 'components/common'
