@@ -6,22 +6,30 @@ import { Button, Stack, Typography } from '@mui/material'
 
 type props = {
   sx?: SxProps,
-  onOk?: () => void,
   onClose?: () => void,
+  onCancel?: () => void,
+  onEither?: () => void,
+  onConfirm?: () => void,
+  closeOnCancel?: boolean,
   title: string | string[],
   text?: string | string[],
   closeOnConfirm?: boolean,
+  cancelButtonText?: string,
   confirmButtonText?: string,
 }
 
-const Alert: FC<props> = ({ 
+const Confirm: FC<props> = ({
   sx,
   text,
-  onOk,
   title,
   onClose,
+  onEither,
+  onCancel,
+  onConfirm,
+  closeOnCancel = true,
   closeOnConfirm = true,
-  confirmButtonText = 'Ok',
+  confirmButtonText = 'Confirmar',
+  cancelButtonText = 'Cancelar',
 }) => {
 
   const titles: string[] = useMemo(
@@ -37,10 +45,15 @@ const Alert: FC<props> = ({
     [ text ]
   )
 
-  const onOkHandler = useCallback(() => {
-    onOk && onOk()
+  const onConfirmHandler = useCallback(() => {
+    onConfirm && onConfirm() && onEither && onEither()
     closeOnConfirm && onClose && onClose()
-  }, [ onOk, onClose, closeOnConfirm ])
+  }, [ onConfirm, closeOnConfirm, onEither, onClose ])
+
+  const onCancelHandler = useCallback(() => {
+    onCancel && onCancel() && onEither && onEither()
+    closeOnCancel && onClose && onClose()
+  }, [ onCancel, closeOnCancel, onEither, onClose ])
 
   return (
     <ModalBase sx={ sx }>
@@ -70,11 +83,12 @@ const Alert: FC<props> = ({
           )
         )
       }
-      <Stack { ...stack.flex.col('flex-end', 'center') } sx={{ width: '100%' }}>
-        <Button onClick={ onOkHandler }>{ confirmButtonText }</Button>
+      <Stack { ...stack.flex.row('flex-end', 'center') } sx={{ width: '100%' }} spacing={ 2 }>
+        <Button onClick={ onCancelHandler } color='secondary'>{ cancelButtonText }</Button>
+        <Button onClick={ onConfirmHandler }>{ confirmButtonText }</Button>
       </Stack>
     </ModalBase>
   )
 }
 
-export default Alert
+export default Confirm

@@ -1,28 +1,15 @@
+import { FC, ReactNode } from 'react'
 import { Box, SxProps } from '@mui/material'
-import { FC } from 'react'
-import { sx } from 'utils/mui'
+import { modalBaseStyle } from './Base.styles'
 
 type props = {
   sx?: SxProps,
-  children?: JSX.Element
+  children?: ReactNode
 }
 
-const defaultSx: SxProps = {
-  ...sx.flex.column('center', 'space-between'),
-  width: '90%',
-  maxWidth: '440px',
-  background: '#fff',
-  height: 'auto',
-  minHeight: '20vh',
-  padding: '16px',
-  boxShadow: '0px 3px 9px rgba(0, 0, 0, .15)',
-  borderRadius: '2px',
-  position: 'relative'
-}
-
-const ModalBase: FC<props> = ({ children, sx = defaultSx }) => {
+const ModalBase: FC<props> = ({ children, sx = {} }) => {
   return (
-    <Box sx={ sx }>
+    <Box sx={{ ...modalBaseStyle, ...sx } as any }>
       { children }
     </Box>
   )

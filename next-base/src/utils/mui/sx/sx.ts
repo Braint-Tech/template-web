@@ -1,6 +1,6 @@
 import { AlignItems, JustifyContent } from '../../../types'
 
-const column = (horizontalAlignment: AlignItems = 'center', verticalAlginment: JustifyContent = 'center'): any => ({
+const col = (horizontalAlignment: AlignItems = 'center', verticalAlginment: JustifyContent = 'center'): any => ({
   display: 'flex',
   flexDirection: "column",
   justifyContent: verticalAlginment,
@@ -15,7 +15,7 @@ const row = (horizontalAlignment: JustifyContent = 'center', verticalAlginment: 
 })
 
 const flex = {
-  column,
+  col,
   row
 }
 
