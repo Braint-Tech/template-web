@@ -3,7 +3,7 @@
 ### Download the module [here](https://drive.google.com/uc?id=1iR3AIA1JmchradBhZVYsYsEO9lqy0JGZ&export=download)
 
 ### Dependent of:
-- none
+- [functional/utils/mui](https://github.com/Braint-Tech/template-web/tree/main/components/functional/utils/mui)
 
 <br />
 
