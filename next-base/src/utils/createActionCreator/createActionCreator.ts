@@ -3,7 +3,7 @@ import { Action } from '../../types'
 
 const createActionCreator = <Type, Payload>(type: Type) =>
   (dispatch: Dispatch<Action<Type, Payload>>) =>
-  (payload: Payload) =>
-  dispatch({ type, payload })
+  (...args: Payload extends never ? [Payload?] : [Payload]) =>
+  dispatch({ type, payload: args[0] as Payload })
 
 export default createActionCreator
