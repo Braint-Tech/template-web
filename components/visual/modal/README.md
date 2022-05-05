@@ -22,7 +22,7 @@
 <br />
 
 ### For better benefit, use with redux
-See the instructions to integrate modal boxes with redux [here](#)
+See the instructions to integrate modal boxes with redux [here](https://github.com/Braint-Tech/template-web/tree/main/components/tutorials/modal-redux)
 
 <br />
 
