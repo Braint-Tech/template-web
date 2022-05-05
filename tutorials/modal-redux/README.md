@@ -5,6 +5,9 @@
 - [functional/reducers/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/reducers/modal)
 - [functional/actionCreators/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/actionCreators/modal)
 
+### Instructions:
+1. Follow the instructions of each dependency
+
 ### Example:
 ```tsx
 import { Button, Stack } from '@mui/material'
