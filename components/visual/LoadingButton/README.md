@@ -10,6 +10,7 @@
 - create `index.ts` file at `src/components/common` [INE](https://github.com/Braint-Tech/template-web#ine)
 
 ### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
+- unzip the module at `src/components/common`
 - insert the code line `export { default as LoadingButton } from './LoadingButton'` at `src/components/common/index.ts`
 
 ### Usage example:
