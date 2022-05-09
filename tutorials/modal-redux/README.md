@@ -2,8 +2,8 @@
 
 ### Dependent Of:
 - [functional/types/actions/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/types/actions/modal)
-- [functional/reducers/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/reducers/modal)
-- [functional/actionCreators/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/actionCreators/modal)
+- [functional/reducers/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/redux/reducers/modal)
+- [functional/actionCreators/modal](https://github.com/Braint-Tech/template-web/tree/main/components/functional/redux/actionCreators/modal)
 
 ### Instructions:
 1. Follow the instructions of each dependency
