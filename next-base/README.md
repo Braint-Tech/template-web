@@ -3,7 +3,7 @@ Download the zipped file structure [here](https://drive.google.com/uc?id=1Gj88RE
 ## Steps to get up and running
 
 1. Download the zipped file structure
-1. Copy the files into your project folder
+1. Unzip the contents of `next-base` folder into your project folder
 1. Update the `name` in the `package.json` file 
 ```
   {
