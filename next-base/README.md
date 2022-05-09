@@ -24,7 +24,7 @@ Download the zipped file structure [here](https://drive.google.com/uc?id=1Gj88RE
 
 1. Go to `components` folder
 1. Choose `visual` (layouts, menus, sidebars) or `functional` (react-hooks, utils, redux)
-1. Each components has a `instructions.md` file where you gonna find everything you need to use the component
+1. Each components has a `README.md` file where you gonna find instructions to use the component
 
 Links <br />
 [react components using MUI](https://github.com/Braint-Tech/template-web/tree/main/components)
