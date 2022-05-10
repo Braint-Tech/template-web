@@ -1,6 +1,6 @@
-## Login form
+## Sign up form
 
-### Download the module [here](https://drive.google.com/uc?id=11tZbwOgR-YJWI9IxvsDQMIIak45LX1hE&export=download)
+### Download the module [here](https://drive.google.com/uc?id=1vD8VHkoR-r7s3rSLcHdt3NQVx-SC9LYw&export=download)
 
 ### Dependent of:
 - none
@@ -18,7 +18,7 @@
 
 ### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module into `src/components/auth`
-1. insert the code line `export { default as LoginForm } from './LoginForm'` at `src/components/auth/index.ts`
+1. insert the code line `export { default as SignUpForm } from './SignUpForm'` at `src/components/auth/index.ts`
 
 ### IMPORTANT:
 After adding the module you have to change the `onSubmit` function
