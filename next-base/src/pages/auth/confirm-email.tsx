@@ -20,8 +20,8 @@ const ConfirmEmail: NextPage = () => {
   return (
     <Page title='Confirmar email' verticalAlignment='center'>
       <ConfirmEmailWithToken
-        token={ RouteNormalizer.query.possibleManyToSingle(token) }
-        validateFunction={ validateToken }
+        token={ RouteNormalizer.query.maybeManyToJustOne(token) }
+        validationFunction={ validateToken }
       />
     </Page>
   )

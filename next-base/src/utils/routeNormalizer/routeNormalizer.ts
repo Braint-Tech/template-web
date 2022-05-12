@@ -1,7 +1,7 @@
-const possibleManyToSingle = (x: string | string[] | undefined) => Array.isArray(x) ? x[0] : x
+const maybeManyToJustOne = (x: string | string[] | undefined) => Array.isArray(x) ? x[0] : x
 
 const query = {
-  possibleManyToSingle
+  maybeManyToJustOne
 }
 
 const RouteNormalizer = {

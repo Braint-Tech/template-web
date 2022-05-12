@@ -8,15 +8,15 @@ import { isNullable } from 'utils'
 
 type props = {
   token: string | undefined,
-  validateFunction: () => Promise<boolean>
+  validationFunction: () => Promise<boolean>
 }
 
-const ConfirmEmailWithToken: FC<props> = ({ token, validateFunction }) => {
+const ConfirmEmailWithToken: FC<props> = ({ token, validationFunction }) => {
 
   const [ valid , setValid ] = useState<boolean | null>(null)
 
   useEffect(() => {
-    validateFunction()
+    validationFunction()
     .then(res => {
       setValid(res)
     })
