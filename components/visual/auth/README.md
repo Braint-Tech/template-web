@@ -15,8 +15,6 @@
 - object-fn-ts `npm i object-fn-ts` or `pnpm add object-fn-ts`
 - is-empty `npm i is-empty && npm i @types/is-empty -D` or `pnpm add is-empty && pnpm add @types/is-empty -D`
 
-### Unique steps[*](https://github.com/Braint-Tech/template-web#unique-steps):
-- none
 
 ### Installation steps[*](https://github.com/Braint-Tech/template-web#installation-steps):
 1. unzip the module into `src/components`

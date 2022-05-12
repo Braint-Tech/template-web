@@ -1,0 +1,1 @@
+## Components ralated to the `pages` folder at `src`
