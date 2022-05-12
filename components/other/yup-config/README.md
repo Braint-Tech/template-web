@@ -5,6 +5,9 @@
 ### Dependent of:
 - none
 
+### Package dependencies:
+- Yup `npm i yup` or `pnpm add yup`
+
 ### Unique steps[*](https://github.com/Braint-Tech/template-web#unique-steps):
 1. create `config` folder at `src/` [INE](https://github.com/Braint-Tech/template-web#ine)
 1. create `index.ts` file at `src/config` [INE](https://github.com/Braint-Tech/template-web#ine)
