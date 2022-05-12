@@ -1,5 +1,5 @@
 ## Authentication related components
-[LoginForm, SingUpForm]
+[LoginForm, SingUpForm, RecoverPassword, ConfirmEmailWithToken]
 
 <br />
 

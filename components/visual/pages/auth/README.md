@@ -1,5 +1,5 @@
 ## Auth related pages
-[login, signup]
+[login, signup, cover-password, confirm-email]
 
 <br />
 
