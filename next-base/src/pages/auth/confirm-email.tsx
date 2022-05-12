@@ -3,7 +3,7 @@ import { Page } from 'components/common'
 import type { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'
-import { RouteNormalizer } from 'utils'
+import { routeNormalizer } from 'utils'
 
 const ConfirmEmail: NextPage = () => {
   
@@ -20,7 +20,7 @@ const ConfirmEmail: NextPage = () => {
   return (
     <Page title='Confirmar email' verticalAlignment='center'>
       <ConfirmEmailWithToken
-        token={ RouteNormalizer.query.maybeManyToJustOne(token) }
+        token={ routeNormalizer.query.maybeManyToJustOne(token) }
         validationFunction={ validateToken }
       />
     </Page>

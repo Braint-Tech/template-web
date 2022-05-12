@@ -4,8 +4,8 @@ const query = {
   maybeManyToJustOne
 }
 
-const RouteNormalizer = {
+const routeNormalizer = {
   query
 }
 
-export default RouteNormalizer
+export default routeNormalizer
