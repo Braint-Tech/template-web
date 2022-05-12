@@ -38,9 +38,14 @@ const signUp = Yup.object().shape({
     .oneOf([ Yup.ref('password') ], 'As senhas não conferem'),
 })
 
+const recoverPassword = Yup.object().shape({
+  email: Yup.string().required().email().min(3),
+})
+
 const Schemas = {
   login,
   signUp,
+  recoverPassword,
 }
 
 export default Schemas

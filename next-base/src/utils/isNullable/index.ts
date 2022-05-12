@@ -1,1 +1,1 @@
-export {default } from './isNullable'
+export { default } from './isNullable'

@@ -1,4 +1,3 @@
-import { Typography } from '@mui/material'
 import { LoginForm } from 'components/auth'
 import { Page } from 'components/common'
 import type { NextPage } from 'next'
@@ -10,6 +9,9 @@ const Login: NextPage = () => {
       <LoginForm onLogin={(values) => console.log({ values })} />
       <Link href="/auth/signup">
         <a>Quero me cadastrar</a>
+      </Link>
+      <Link href="/auth/recover-password">
+        <a>Esqueci minha senha</a>
       </Link>
     </Page>
   )
