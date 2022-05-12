@@ -20,6 +20,11 @@ Download the zipped file structure [here](https://drive.google.com/uc?id=1Gj88RE
 
 <br />
 
+## Customization:
+1. change the `API_BASE_URL` prop at `next.config.js`
+1. change the app name at `src/components/common/Page/Page.tsx`
+1. change the theme and theme overrides with the files at `src/theme`
+
 ## How to add components from this repo to your project
 
 1. Go to `components` folder
