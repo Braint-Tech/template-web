@@ -1,10 +1,11 @@
+import { Page } from 'components/common'
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Page title='asdf'>
       app
-    </div>
+    </Page>
   )
 }
 
