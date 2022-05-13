@@ -7,7 +7,6 @@ import styles from './NavBar.styles'
 
 type props = {
   logo?: ReactNode,
-  // children?: ReactNode,
   mobileThreshold: number,
   setItems?: (setMobileMenuOpen: Dispatch<SetStateAction<boolean>>) => ReactNode[]
 }
@@ -57,7 +56,15 @@ const NavBar: FC<props> = ({
         safeWindow && safeWindow.innerWidth > mobileThreshold
           ? (
             <Stack { ...stack.flex.row('center', 'center') } spacing={ 2 }>
-              { setItems && setItems(setMobileOpen) }
+              {
+                setItems
+                && setItems(setMobileOpen)
+                  .map((node, index) => (
+                    typeof node === 'object'
+                      ? {...node, key: `node_${index}`} as ReactNode
+                      : node
+                  ))
+              }
             </Stack>
           )
           : (
